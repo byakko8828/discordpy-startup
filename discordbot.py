@@ -20,5 +20,8 @@ async def on_message(message):
 async def ping(ctx):
     await ctx.send('pong')
 
+    @bot.commands
+async def neko(ctx):
+    await ctx.send('ハゲ')
 
 bot.run(token)
